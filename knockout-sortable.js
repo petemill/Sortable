@@ -18,7 +18,7 @@
     }
     else if (typeof require === 'function' && typeof exports === 'object' && typeof module === 'object') {
       //commonjs / node.js
-      sortableRef = require('sortablejs');
+      sortableRef = require('./');
     }
     //use references if we found them
     if (koRef !== undefined && sortableRef !== undefined) {
